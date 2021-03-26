@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'Morganite-SemiBoldItalic';
+    src: url('fonts/Morganite-SemiBoldItalic.eot');
+    src: url('fonts/Morganite-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Morganite-SemiBoldItalic.svg#Morganite-SemiBoldItalic') format('svg'),
+         url('fonts/Morganite-SemiBoldItalic.ttf') format('truetype'),
+         url('fonts/Morganite-SemiBoldItalic.woff') format('woff'),
+         url('fonts/Morganite-SemiBoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Wanted Signature';
+    src: url('fonts/WantedSignature.eot');
+    src: url('fonts/WantedSignature.eot?#iefix') format('embedded-opentype'),
+        url('fonts/WantedSignature.woff2') format('woff2'),
+        url('fonts/WantedSignature.woff') format('woff'),
+        url('fonts/WantedSignature.ttf') format('truetype'),
+        url('fonts/WantedSignature.svg#WantedSignature') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RFlexRegular';
+    src: url('fonts/RFlexRegular.eot');
+    src: url('fonts/RFlexRegular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RFlexRegular.svg#RFlexRegular') format('svg'),
+         url('fonts/RFlexRegular.ttf') format('truetype'),
+         url('fonts/RFlexRegular.woff') format('woff'),
+         url('fonts/RFlexRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+  
+body {
+    background-color: #E1D8FF;
+}
+/* header */
+header{
+    width: 100%;
+    height: 400px;
+    float: left;
+    display: flex;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+header .container{
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    height: 70px;
+}
+header nav a {
+    color: #272E5D;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+header .burger {
+    display: none;
+}
+header h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #272E5D;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+/* section1 */
+main .box-wraper {
+    width: 100%;
+    margin-top: 60px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../img/watermark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main .box-wraper .box {
+    position: relative;
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    transition: all 0.3s ease-in;
+}
+main .box-wraper .box:hover {
+    background-color: #EFEBFF;
+}
+main .box-wraper .box img {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    z-index: 2;
+}
+main .box-wraper .box p {
+    width: 100%;
+    font-family: "Morganite-SemiBoldItalic";
+    font-size: 45px;
+    text-transform: uppercase;
+}
+main .box-wraper .box p span {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-family: "Wanted Signature";
+    font-weight: bold;
+    font-size: 18px;
+    color: #6D44FF;
+}
+main .box-wraper .box .cd {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+main .box-wraper .box:hover .cd{
+    right: 150px;
+}
+/* section2 */
+main .album-wraper {
+    width: 100%;
+    margin-top: 60px;
+    float: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-image: url(../img/watermark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main .album-wraper h1 {
+    font-family: "Morganite-SemiBoldItalic";
+    font-size: 42px;
+    color: #272E5D;
+    text-transform: uppercase;
+    text-align: center;
+}
+main .album-wraper > div {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main .album-wraper .box {
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 270px;
+    transition: all 0.3s ease-in
+}
+main .album-wraper .box .box-text {
+    position: absolute;
+    left: 30px;
+    bottom: 70PX;
+}
+main .album-wraper .box img {
+    width: 205px;
+    height: 342px;
+}
+main .album-wraper .box p {
+    width: 100%;
+    font-size: 10px;
+    font-family: RFlexRegular;
+    text-transform: uppercase;
+}
+main .album-wraper .box:hover {
+    background-color: #EFEBFF;
+}
+main .album-wraper .box .box-text h2 {
+    font-size: 48px;
+    font-family: "Morganite-SemiBoldItalic";
+    color: #272E5D;
+}
+main .album-wraper .box .box-text p{
+    font-size: 12px;
+    color: #272E5D;
+}
+main .album-wraper .box .box-action {
+    position: absolute;
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+    left: 0;
+    bottom: 20px;
+    padding: 0 30px;
+}
+main .album-wraper .box:hover .box-action {
+    display: flex;
+}
+/* section3 */
+main .podcast-wraper {
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .podcast-wraper >div {
+    width: 700px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+main .podcast-wraper .box {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+main .podcast-wraper .box img {
+    width: 260px;
+    height: 260px;
+}
+main .podcast-wraper .box .description {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    transition: all 0.3s ease-in;
+}
+main .podcast-wraper .box:hover .description {
+    background-color: #EFEBFF;
+
+}
+main .podcast-wraper h1 {
+    font-family: "Morganite-SemiBoldItalic";
+    font-size: 48px;
+    color: #272E5D;
+    text-transform: uppercase;
+}
+main .podcast-wraper .box .description >div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: "RFlexRegular";
+}
+main .podcast-wraper .box .description h2 {
+    font-size: 38px;
+    font-family: "Morganite-SemiBoldItalic";
+    margin-top: 15px;
+}
+main .podcast-wraper .box .description p {
+    font-size: 12px;
+    font-family: "RFlexRegular";
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+main .podcast-wraper .box .description p.bottom-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding-top: 60px;
+}
+footer h3 {
+    font-size: 28px;
+    font-family: "RFlexRegular";
+    color: #272E5D;
+}
+footer p {
+    font-size: 14px;
+    font-family: "RFlexRegular";
+    color: #272E5D;
+    margin-top: 30px;
+}
+footer form {
+    margin-top: 30px;
+}
+footer form input {
+    width: 200px;
+    height: 35px;
+    padding: 0 10px;
+    border: none;
+    background-color: #EFEBFF;
+    outline: none;
+    text-transform: uppercase;
+}
+footer form button {
+    width: auto;
+    height: 35px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    background-color: #6D44FF;
+    color: #FFF;
+    text-transform: uppercase;
+}
+footer .logo {
+    height: 80px;
+    margin-top: 60px;
+}
+footer nav {
+    margin-top: 80px;
+}
+footer nav a {
+    margin: 0 5px;
+    font-size: 16px;
+    font-family: "RFlexRegular";
+    color: #272E5D;
+}
+footer .footer-icons {
+    margin-top: 30px;
+}
+footer .footer-icons a {
+    margin: 0 10px;
+    color: #111111;
+}
+footer .footer-bg {
+    width: 100%;
+    background-color: #6D44FF;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 30px;
+}
