@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Morganite-SemiBoldItalic';
+    src: url('fonts/Morganite-SemiBoldItalic.eot');
+    src: url('fonts/Morganite-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Morganite-SemiBoldItalic.svg#Morganite-SemiBoldItalic') format('svg'),
+         url('fonts/Morganite-SemiBoldItalic.ttf') format('truetype'),
+         url('fonts/Morganite-SemiBoldItalic.woff') format('woff'),
+         url('fonts/Morganite-SemiBoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Wanted Signature';
+    src: url('fonts/WantedSignature.eot');
+    src: url('fonts/WantedSignature.eot?#iefix') format('embedded-opentype'),
+        url('fonts/WantedSignature.woff2') format('woff2'),
+        url('fonts/WantedSignature.woff') format('woff'),
+        url('fonts/WantedSignature.ttf') format('truetype'),
+        url('fonts/WantedSignature.svg#WantedSignature') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RFlexRegular';
+    src: url('fonts/RFlexRegular.eot');
+    src: url('fonts/RFlexRegular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RFlexRegular.svg#RFlexRegular') format('svg'),
+         url('fonts/RFlexRegular.ttf') format('truetype'),
+         url('fonts/RFlexRegular.woff') format('woff'),
+         url('fonts/RFlexRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
